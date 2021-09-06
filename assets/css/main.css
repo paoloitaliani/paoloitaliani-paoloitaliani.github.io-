@@ -2129,9 +2129,74 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image.main {
+			display: block;
+			margin: 0 auto;
+			width: 100%;
+			text-align: center
+		}
+
+		.image.main2 {
+			display: block;
+			margin: 0 auto;
+			width: 50%;
+			text-align: center
+		}
+
+		.image.main3 {
+			display: block;
+			margin: 0 auto;
+			width: 80%;
+			text-align: center
+		}
+
+		.image.main4 {
+			display: block;
+			margin: 0 auto;
+			width: 70%;
+			text-align: center
+		}
+
 			.image.fit img {
 				width: 100%;
 			}
+			
+			.image.main img {
+				width: 100%;
+				text-align: center
+			}
+
+
+			.image.main2:first-child {
+				margin-top: 0;
+				text-align: center
+			}
+
+			.image.main2 img {
+				width: 100%;
+				text-align: center
+			}
+
+			.image.main3:first-child {
+				margin-top: 0;
+				text-align: center
+			}
+
+			.image.main3 img {
+				width: 100%;
+				text-align: center
+			}
+
+			.image.main4:first-child {
+				margin-top: 0;
+				text-align: center
+			}
+
+			.image.main4 img {
+				width: 100%;
+				text-align: center
+			}
+
 
 /* List */
 
